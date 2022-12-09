@@ -26,5 +26,5 @@ jobs:
             touch .env
             echo "${{secrets.ENV}}" > .env
             git pull origin master
-            chmod +x ./run.sh
-            ./run.sh
+            chmod +x ./ci.sh
+            ./ci.sh
