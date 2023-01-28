@@ -91,6 +91,7 @@ const MobilePreview = () => {
   const [filterList] = useState<string[]>(['populer', 'makanan', 'minuman'])
   const [currentFilter, setCurrentFilter] = useState<string>('')
   const [menuList, setMenuList] = useState(['', ''])
+  console.log('See here')
 
   return (
     <MobileContainer>
