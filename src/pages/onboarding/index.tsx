@@ -58,7 +58,7 @@ const Onboarding = () => {
       )
     }
   ])
-  const [step, setStep] = useState<number>(1)
+  const [step] = useState<number>(1)
 
   return (
     <Container>
