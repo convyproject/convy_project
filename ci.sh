@@ -1,3 +1,4 @@
+rm -rf ./node_modules
 npm i -g yarn
 yarn
 npm i -g pm2
